@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Blast Typing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">Blast Typing!</h1>
+  <p id="points"></p> <!--This is for displaying any information to the player-->
+  <p id="msg">Practice your keyboard skills by typing the letters that appear on the screen before they reach you!</p>
+  <div>
+    <button type="button" id="start">Start</button> <!-- To start the game -->
+  </div>
+  <div id="myModal" class="modal"> <!--Popup window at the end of the game-->
+    <div class="modal-content">
+      <p id="endgamemsg"></p>
+      <button id="restartbtn">Restart</button>
+    </div>
+  </div>
+  <div class="spawnZone" id="spawnZone">
+      <div id="blastletter"></div> <!-- This will display the letter to type -->
+  </div>
+  <div id="leaderboard"> 
+    <h1>Top 5 Highest Scores</h1>
+    <ol class="highscores">
+      <li id="score1"></li>
+      <li id="score2"></li>
+      <li id="score3"></li>
+      <li id="score4"></li>
+      <li id="score5"></li>
+    </ol>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

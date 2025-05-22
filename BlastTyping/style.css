@@ -1,0 +1,96 @@
+  .error {
+    background-color: lightcoral;
+    border: red;
+  }
+
+  h1 {
+    color:aliceblue;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 247, 255), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 48;
+  }
+
+  ol {
+    text-align: center;
+  }
+button {
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 24;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    transition-duration: 0.5s;
+}
+button:hover {
+  background-color: red;
+}
+
+#blastletter {
+  display: grid;
+  color: rgb(255, 255, 255);
+  grid-area: auto;
+}
+
+#leaderboard {
+  color: white;
+  text-align: center;
+}
+
+ol.highscores{
+  display: inline-block;
+  text-align: left;
+}
+  p {
+    color: white;
+    text-align: center;
+    padding-top: 50;
+    font-size: 32;
+  }
+
+  div {
+    text-align: center;
+    font-size: 32;
+  }
+
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+
+.spawnZone { /*Covers the whole screen for where the letters can appear from*/
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  display: grid; /*segments into 144 grid blocks around the screen, reserve top 20% of screen for points UI and 20% on other sides to prevent going offscreen*/
+  grid-template-rows: 20% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 20%;
+  grid-template-columns: 20% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 20%;
+  z-index: -2;
+}
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #2e207e;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #8a1313;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  
