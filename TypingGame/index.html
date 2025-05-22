@@ -1,0 +1,35 @@
+<!-- inside index.html -->
+<html>
+<head>
+  <title>Typing game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Typing game!</h1>
+  <p>Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
+  <p id="quote"></p> <!-- This will display our quote -->
+  <p id="message"></p> <!-- This will display any status messages -->
+  <div>
+    <input type="text" aria-label="current word" id="typed-value" /> <!-- The textbox for typing -->
+    <button type="button" id="start">Start</button> <!-- To start the game -->
+    <button type="button" id="quickend">End</button>
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <p id="endgamemsg"></p>
+      <button id="restartbtn">Restart</button>
+    </div>
+  </div>
+  <div id="leaderboard">
+    <h1>Top 5 Fastest completions</h1>
+    <ol class="highscores">
+      <li id="score1"></li>
+      <li id="score2"></li>
+      <li id="score3"></li>
+      <li id="score4"></li>
+      <li id="score5"></li>
+    </ol>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
