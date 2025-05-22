@@ -65,3 +65,9 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  #homeButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
