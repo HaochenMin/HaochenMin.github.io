@@ -11,8 +11,9 @@ header {
 }
 
 nav {
-    background-color: #9c3030;
+    background-color: #1ca1ee;
     padding: 10px;
+    text-align: center;
 }
 
 nav a {
@@ -46,11 +47,6 @@ article {
     margin-right: 10px; 
 } 
 
-aside { 
-    flex: 1; 
-    background-color: #a3cff3; 
-    padding: 10px; 
-} 
 
 footer { 
     background-color: #242424; 

@@ -176,15 +176,3 @@ document.getElementById('start').addEventListener('click', () => {
     // Start the timer
     startTime = new Date().getTime();
   });
-
-  //Button for testing to instantly end the current quote
-document.getElementById('quickend').addEventListener('click', () => {
-  const elapsedTime = ((new Date().getTime() - startTime) / 1000);
-  replaceTime(elapsedTime);
-  const message = `CONGRATULATIONS! You finished in ${elapsedTime} seconds.`;
-  endgameMessageElement.innerText = message;
-  modal.style.display="block";
-  removeEventListener('input', typedValueElement);
-  typedValueElement.style.display="none";
-});
-  // at the end of script.js
