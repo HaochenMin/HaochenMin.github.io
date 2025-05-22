@@ -27,6 +27,12 @@ button:hover {
   background-color: red;
 }
 
+#homeButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #blastletter {
   display: grid;
   color: rgb(255, 255, 255);
