@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <nav>
+        <a href="https://haochenmin.github.io">Home</a>
+        <a href="https://haochenmin.github.io/Terrarium">Terrarium</a>
+        <a href="https://haochenmin.github.io/TypingGame">Typing Game</a>
+        <a href="https://haochenmin.github.io/BlastTyping">Blast Typing</a>
+        <a href="#">NextWork Portfolio</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <article>
+                <h2><a href="https://haochenmin.github.io/TypingGame">Typing Game</a></h2>
+                <p class="post-meta">
+                    Last edited on May 25, 2025 by Haochen Min
+                </p>
+                <p>
+                    A time attack typing game using Sherlock quotes.  This project introduced event listeners to enable event-driven programming, and required much more logic than the Terrarium project.
+                    Localstorage was used to store the player's scores, and I initially ran into difficulty making sure the scores shown was displayed properly due to the fact that a return value of null was
+                    turned into a 'null' string, fixed by checking for both an inital null value if the there was no score that existed prior and for a 'null' string if the scores were already updated once.  
+                    The scores from localstorage were mapped their respective leaderboard elements and updated accordingly if a new score beat a score on the top 5.
+                </p>
+            </article>
+        </main>
+    </div>
+
+    <footer>
+        <p>2025 Haochen's Projects</p>
+    </footer>
+</body>
+
+</html>
