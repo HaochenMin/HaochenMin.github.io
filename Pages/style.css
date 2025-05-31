@@ -40,7 +40,10 @@ nav a {
 .imageContainer {
     display: inline;
     vertical-align: middle;
-    padding: 50px, 30px;
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 60px;
+    height: 70px;
 }
 
 article p { 
