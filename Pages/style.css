@@ -38,9 +38,12 @@ nav a {
 }
 
 .imageContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 30%;
+    height: 40%;
 }
 
 article p { 
