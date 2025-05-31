@@ -51,14 +51,17 @@ img {
 }
 
 article { 
-    width: 90%;
+    width: 45%;
     margin-bottom: 20px; 
     padding: 20px 20px; 
     border: 1px solid rgb(149, 209, 206); 
     /*margin-right: 10px; */
 } 
 
-
+h2 {
+    text-align: center;
+    font-size: 32;
+}
 
 footer { 
     background-color: #242424; 
