@@ -33,8 +33,9 @@ nav a {
 } 
 
 .projectContainer {
-    display: flex;
+    display: inline;
     justify-content: space-between;
+    vertical-align: middle;
 }
 
 .imageContainer {
