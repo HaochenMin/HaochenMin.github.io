@@ -39,11 +39,8 @@ nav a {
 
 .imageContainer {
     display: flex;
-    vertical-align: middle;
-    margin-right: 30px;
-    margin-left: 20px;
-    width: 30%;
-    height: 40%;
+    align-items: center;
+    justify-content: center;
 }
 
 article p { 
