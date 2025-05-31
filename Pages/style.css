@@ -37,6 +37,11 @@ nav a {
     justify-content: space-between;
 }
 
+.imageContainer {
+    display: flex;
+    padding: 25px, 30px;
+}
+
 article p { 
     text-align: justify; 
 } 
