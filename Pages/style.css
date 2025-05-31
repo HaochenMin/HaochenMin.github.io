@@ -38,7 +38,7 @@ nav a {
 }
 
 .imageContainer {
-    display: inline;
+    display: flex;
     vertical-align: middle;
     margin-right: 30px;
     margin-left: 20px;
