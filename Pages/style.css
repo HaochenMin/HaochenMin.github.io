@@ -33,13 +33,13 @@ nav a {
 } 
 
 .projectContainer {
-    display: inline;
+    display: flex;
     justify-content: space-between;
-    vertical-align: middle;
 }
 
 .imageContainer {
-    display: flex;
+    display: inline;
+    vertical-align: middle;
     padding: 25px, 30px;
 }
 
