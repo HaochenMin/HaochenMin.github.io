@@ -37,6 +37,17 @@ nav a {
     justify-content: space-between;
 }
 
+.NWprojectContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px, 20px;
+}
+
+.NWprojectContainer p {
+    text-align: center;
+}
+
 .imageContainer {
     display: inline;
     vertical-align: middle;
@@ -45,8 +56,17 @@ nav a {
     margin-bottom: 50px;
     width: 30%;
     height: 40%;
-    border: 1px solid rgb(0, 0, 0); 
+}
 
+.NWContainer {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 175px;
+    padding: 20px, 20px;
 }
 
 article p { 
