@@ -64,7 +64,27 @@ article {
     border: 1px solid rgb(149, 209, 206); 
 } 
 
+.text {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.articleElement {
+    position: relative;
+}
+
+.articleElement :hover{
+    opacity: 0.4;
+}
+
+.articleElement:hover .text {
+    display: inline-block;
+}
 
 footer { 
     background-color: #242424; 
