@@ -37,6 +37,13 @@ nav a {
     justify-content: space-between;
 }
 
+.mdContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 52%;
+    max-height: 52%;
+}
+
 article p { 
     text-align: justify; 
 } 
