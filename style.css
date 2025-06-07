@@ -44,6 +44,20 @@ nav a {
     max-height: 50%;
 }
 
+.intro {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.introName {
+    font-size: 70px;
+}
+
+.introText {
+    font-size: 25px;
+}
+
 article p { 
     text-align: justify; 
 } 
