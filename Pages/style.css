@@ -69,6 +69,13 @@ nav a {
     padding: 20px, 20px;
 }
 
+.pLink {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin-bottom: 40px;;
+}
+
 article p { 
     text-align: justify; 
 } 
@@ -83,8 +90,20 @@ img {
 }
 
 article { 
+    display: relative;
+    bottom: 100;
     width: 45%;
-    margin-bottom: 20px; 
+    margin-bottom: 100%; 
+    padding: 20px 20px; 
+    border: 1px solid rgb(149, 209, 206); 
+    /*margin-right: 10px; */
+} 
+
+.NWarticle { 
+    display: relative;
+    bottom: 100;
+    margin-bottom: 20px;
+    width: 45%;
     padding: 20px 20px; 
     border: 1px solid rgb(149, 209, 206); 
     /*margin-right: 10px; */
