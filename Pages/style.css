@@ -2,22 +2,24 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(https://haochenmin.github.io/yoCvXJW-wallpaper-and-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
 nav {
-    background-color: #1ca1ee;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px;
     margin-right: 10px;
